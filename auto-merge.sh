@@ -16,7 +16,7 @@ cd /home/auto-merge/certiplate-v3-backend/src-certiplate-v3-backend
 
 
 # Slack webhook URL (replace with your actual webhook URL)
-slack_webhook_url="https://hooks.slack.com/services/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"
+slack_webhook_url="***"
 
 
 # Define the commit message
