@@ -1,4 +1,4 @@
-#merge github branch automatically by cron
+#merge github branch automatically by cronjob
 
 #run below script as cron job then the develop & qa branch will autometically merge
 #create a directory as src-certiplate-v3-backend & pull the code & execute the script
