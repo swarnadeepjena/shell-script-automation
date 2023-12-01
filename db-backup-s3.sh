@@ -23,6 +23,7 @@ mkdir -p "$BACKUP_DIR"
 for DB_NAME in $DB_NAMES; do
     BACKUP_FILE="$BACKUP_DIR/$DB_NAME-$(date +"%Y-%m-%d").dump"
     sudo -u postgres pg_dump -Fc "$DB_NAME" > "$BACKUP_FILE"
+    #sudo -u postgres pg_dump -U "$PG_USER" -Fc "$DB_NAME" > "$BACKUP_FILE"
 done
 
 # Upload backups to S3
