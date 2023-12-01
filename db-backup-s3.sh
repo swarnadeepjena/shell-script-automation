@@ -43,6 +43,8 @@ rm -f "$BACKUP_DIR"/*.dump
 #some of db may use any of below script to make backup. try with both once done you can use as crontab to make the daily backup
 #you have give acess key & secret key with specific bucker permission & appli lifecycle policy as it get delete all older db after 7 days.
 #below is the cloud formation templete to assign acess to s3 bucker & auto generate acess key & secrets key
+#0 2 * * * /datadrive/script-automation/db-backup.sh
+
 
 #-------------------------------
 
